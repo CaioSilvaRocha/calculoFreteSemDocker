@@ -1,0 +1,34 @@
+@media(min-width: 768px){
+    body {
+        padding: 0px 0px; /* -0px -10px */
+    }
+
+    #inputEntradaLocalOrigem, #inputEntradaLocalDestino, #textareaEntradaDescricaoLucro {
+        width: 97%; /* +1% */
+    }
+
+    #inputEntradaConsumoAutomovel, #inputEntradaPrecoCombustivel, #inputEntradaValorLucro {
+        width: 91%; /* +4% */
+    }
+
+    #paragrafoMensagemCalculo {
+        font-size: 33px; /* +4px */
+    }
+
+    #divEntradas p, #paragrafoErroArmazenamento, #paragrafoSucessoArmazenamento {
+        font-size: 21px; /* +1px */
+    }
+
+    #divEntradas input, textarea {
+        font-size: 19px; /* +2px */
+    }
+
+    #paragrafoMensagemFrete, #paragrafoFrete {
+        font-size: 24px; /* +1px */
+    }
+
+    #buttonCalcular, #buttonSalvar, #buttonVerHistorico, #buttonSair {
+        width: 125px; /* +5px */
+        font-size: 20px; /* +3px */
+    }
+}

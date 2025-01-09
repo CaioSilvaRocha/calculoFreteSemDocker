@@ -1,0 +1,51 @@
+#divMensagemLogin, #divEntradas, #divResultadoLogin, #divBotaoAcessar{
+    margin-bottom: 20px;
+}
+
+#divAcessoPaginaCadastro {
+    display: flex;
+    justify-content: center;
+}
+
+#divEntradaNomeUsuario {
+    margin-bottom: 15px;
+}
+
+#divEntradas input, #buttonAcessar, #paragrafoErroLogin, #paragrafoSucessoLogin {
+    border-radius: 4px;
+}
+
+#divEntradas input {
+    border-width: 1px;
+    padding: 0px 5px;
+    height: 45px;
+    width: 96%;
+    font-size: 17px;
+}
+
+#paragrafoMensagemLogin {
+    font-size: 29px;
+}
+
+#paragrafoErroLogin, #paragrafoSucessoLogin, #paragrafoPergunta, #paragrafoAcessoPaginaCadastro {
+    font-size: 20px;
+}
+
+#paragrafoAcessoPaginaCadastro {
+    padding-left: 5px;
+}
+
+#paragrafoErroLogin {
+    background-color: rgba(223, 3, 3, 0.350);
+}
+
+#paragrafoSucessoLogin {
+    background-color: rgba(0, 121, 0, 0.450);
+}
+
+#buttonAcessar {
+    height: 36px;
+    width: 120px;
+    border-width: 1px;
+    font-size: 17px;
+}

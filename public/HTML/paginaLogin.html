@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPadrao.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPaginaLogin.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPaginaLoginTelaMedia.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+    </header>
+
+    <!-- CAMPO PRINCIPAL -->
+    <main>
+        <div id="divCampoPrincipal">
+            <div id="divMensagemLogin">
+                <p id="paragrafoMensagemLogin">ACESSO DE CONTA</p>
+            </div>
+            <div id="divEntradas">
+                <div id="divEntradaNomeUsuario">
+                    <input id="inputEntradaNomeUsuario" type="text" placeholder="Nome de Usuário" required>
+                </div>
+                <div id="divEntradaSenha">
+                    <input id="inputEntradaSenha" type="password" placeholder="Senha" required>
+                </div>
+            </div>
+            <div id="divResultadoLogin">
+            </div>            
+            <div id="divBotaoAcessar">
+                <button id="buttonAcessar" type="button" class="botaoDesabilitado" disabled>Entrar</button>
+            </div>
+            <div id="divAcessoPaginaCadastro">
+                <div id="divParagrafoPergunta">
+                    <p id="paragrafoPergunta">Não possui cadastro?</p>
+                </div>
+                <div>
+                    <p id="paragrafoAcessoPaginaCadastro"><a href="/paginaCadastro">Cadastrar Conta</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+    </footer>
+
+    <!-- COMANDOS JAVASCRIPT -->
+    <script src="/JavaScript/paginaLogin.js">
+    </script>
+</body>
+</html>

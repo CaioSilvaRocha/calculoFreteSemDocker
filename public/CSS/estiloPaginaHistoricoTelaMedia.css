@@ -1,0 +1,26 @@
+@media(min-width: 768px){
+    #paragrafoMensagemHistorico {
+        font-size: 33px; /* +4px */
+    }
+
+    #paragrafoTotalConjuntos {
+        font-size: 21px; /* +1px */
+    }
+
+    #buttonVoltar {
+        font-size: 20px; /* +3px */
+    }
+
+    #divExibicaoHistorico {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+
+    #divExibicaoHistorico .historico {
+        font-size: 16px; /* +3px */
+    }
+
+    #divExibicaoHistorico #divParagrafoDescricaoLucro{
+        width: 137px; /* +25px */
+    }
+}

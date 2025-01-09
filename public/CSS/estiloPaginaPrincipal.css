@@ -1,0 +1,144 @@
+body {
+    padding: 0px 10px;
+}
+
+#divMensagemCalculo, #divEntradas, #divExibicaoFrete, #divConfirmacaoLocalidades, #divResultadoArmazenamento, #divPrimeiraDuplaBotoes {
+    margin-bottom: 20px;
+}
+
+#divConfirmacaoLocalidades {
+    background-color: rgba(211, 137, 0, 0.13);
+    padding: 8px 5px;
+}
+
+#divConfirmacaoLocalidades p {
+    font-size: 15px;
+}
+
+#divConfirmacaoPergunta, #divConfirmacaoTextos {
+    margin-bottom: 10px;
+}
+
+#divConfirmacaoBotoes, #divExibicaoFrete, .duplaBotoes {
+    display: flex;
+    justify-content: center;
+}
+
+#divExibicaoFrete {
+    background-color: rgb(219, 219, 219);
+    padding: 5px 0px;
+}
+
+#divEntradaLocalOrigem, #divEntradaLocalDestino, #divEntradaConsumoAutomovelPrecoCombustivelValorLucro, #divEntradaConsumoAutomovel, #divEntradaPrecoCombustivel {
+    margin-bottom: 15px;
+}
+
+#divEntradaConsumoAutomovel, #divEntradaPrecoCombustivel, #divEntradaValorLucro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#divEntradaConsumoAutomovelPrecoCombustivelValorLucro .descricaoEntradaNumerica {
+    width: 50%;
+}
+
+#divEntradaConsumoAutomovelPrecoCombustivelValorLucro .entradaNumerica {
+    width: 30%;
+}
+
+#divParagrafoMensagemFrete, #divFrete {
+    width: 50%;
+}
+
+#divParagrafoMensagemFrete {
+    text-align: right;
+}
+
+#divFrete {
+    padding-left: 6px;
+}
+
+#divEntradas p, #divFrete {
+    text-align: left;
+}
+
+#divEntradas p, #paragrafoErroArmazenamento, #paragrafoSucessoArmazenamento {
+    font-size: 20px;
+}
+
+#divEntradas input, textarea, #divExibicaoFrete, #paragrafoErroArmazenamento, #paragrafoSucessoArmazenamento, #buttonNegacao, #buttonConfirmacao, #buttonCalcular, #buttonSalvar, #buttonVerHistorico, #buttonSair {
+    border-radius: 4px;
+}
+
+#divEntradas input, textarea {
+    border-width: 1px;
+    padding: 0px 5px;
+    font-size: 17px;
+}
+
+#inputEntradaLocalOrigem, #inputEntradaLocalDestino, #inputEntradaConsumoAutomovel, #inputEntradaPrecoCombustivel, #inputEntradaValorLucro {
+    height: 45px;
+}
+
+#inputEntradaLocalOrigem, #inputEntradaLocalDestino, #textareaEntradaDescricaoLucro {
+    width: 96%;
+}
+
+#inputEntradaConsumoAutomovel, #inputEntradaPrecoCombustivel, #inputEntradaValorLucro {
+    width: 87%;
+}
+
+#textareaEntradaDescricaoLucro {
+    height: 120px;
+    resize: none;
+}
+
+#paragrafoMensagemCalculo {
+    font-size: 29px;
+}
+
+#paragrafoMensagemFrete, #paragrafoFrete {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#paragrafoErroArmazenamento {
+    background-color: rgba(223, 3, 3, 0.350);
+}
+
+#paragrafoSucessoArmazenamento {
+    background-color: rgba(0, 121, 0, 0.450);
+}
+
+#buttonNegacao, #buttonConfirmacao {
+    height: 25px;
+    width: 60px;
+    border-width: 1px;
+    font-size: 15px;
+}
+
+#buttonNegacao {
+    margin-right: 15px;
+}
+
+#buttonCalcular, #buttonSalvar, #buttonVerHistorico, #buttonSair {
+    height: 36px;
+    width: 120px;
+    border-width: 1px;
+    font-size: 17px;
+}
+
+.margemInferiorAjustavel {
+    margin-bottom: 5px;
+}
+
+.botaoInicialDuplaBotoes {
+    margin-right: 20px;
+}
+
+.obrigatorio::after {
+    content:" *"; 
+    color: red;
+}

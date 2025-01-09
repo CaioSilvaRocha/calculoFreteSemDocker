@@ -1,0 +1,55 @@
+#divMensagemCadastro, #divMensagemPreenchimento, #divEntradas, #divBotaoCadastrar{
+    margin-bottom: 20px;
+}
+
+#divAcessoPaginaLogin {
+    display: flex;
+    justify-content: center;
+}
+
+#divEntradaNome, #divEntradaCpf, #divEntradaEmail, #divEntradaNomeUsuario, #divResultadoCadastro p {
+    margin-bottom: 15px;
+}
+
+#divEntradas input {
+    border-width: 1px;
+    padding: 0px 5px;
+    height: 45px;
+    width: 96%;
+    font-size: 17px;
+}
+
+#divBotaoCadastrar {
+    margin-top: 5px;
+}
+
+#paragrafoMensagemPreenchimento, #divEntradas input, #buttonCadastrar, #paragrafoErroCadastro, #paragrafoSucessoCadastro {
+    border-radius: 4px;
+}
+
+#paragrafoMensagemCadastro {
+    font-size: 29px;
+}
+
+#paragrafoMensagemPreenchimento, #paragrafoErroCadastro, #paragrafoSucessoCadastro, #paragrafoPergunta, #paragrafoAcessoPaginaLogin {
+    font-size: 20px;
+}
+
+#paragrafoAcessoPaginaLogin {
+    padding-left: 5px;
+}
+
+#paragrafoMensagemPreenchimento, #paragrafoErroCadastro {
+    background-color: rgba(223, 3, 3, 0.350);
+}
+
+#paragrafoSucessoCadastro {
+    background-color: rgba(0, 121, 0, 0.450);
+}
+
+#buttonCadastrar {
+    height: 36px;
+    width: 120px;
+    border-width: 1px;
+    font-size: 17px;
+}

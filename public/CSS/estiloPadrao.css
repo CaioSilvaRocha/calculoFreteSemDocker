@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    text-align: center;
+}
+
+.botaoDesabilitado {
+    cursor: not-allowed;
+}
+
+.botaoHabilitado:hover {
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+}

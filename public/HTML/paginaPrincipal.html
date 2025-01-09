@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPadrao.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPaginaPrincipal.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPaginaPrincipalTelaMedia.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPaginaPrincipalTelaGrande.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+    </header>
+    
+    <!-- CAMPO PRINCIPAL -->
+    <main>
+        <div id="divCampoPrincipal">
+            <div id="divMensagemCalculo">
+                <p id="paragrafoMensagemCalculo">CÁLCULO DO FRETE</p>
+            </div>
+            <div id="divEntradas">
+                <div id="divEntradaLocalOrigem">
+                    <p id="paragrafoLocalOrigem" class="obrigatorio">Local de Origem:</p>
+                    <input id="inputEntradaLocalOrigem" type="text" class="entradaObrigatoria entradaLivre" placeholder="Exemplo: Bairro, Cidade, Estado, País" list="opcoesLocalidadesOrigem" required>
+                    <datalist id="opcoesLocalidadesOrigem">
+                    </datalist>
+                </div>
+                <div id="divEntradaLocalDestino">
+                    <p id="paragrafoLocalDestino" class="obrigatorio">Local de Destino:</p>
+                    <input id="inputEntradaLocalDestino" type="text" class="entradaObrigatoria entradaLivre" placeholder="Exemplo: Bairro, Cidade, Estado, País" list="opcoesLocalidadesDestino" required>
+                    <datalist id="opcoesLocalidadesDestino">
+                    </datalist>
+                </div>
+                <div id="divEntradaConsumoAutomovelPrecoCombustivelValorLucro">
+                    <div id="divEntradaConsumoAutomovel">
+                        <div class="descricaoEntradaNumerica">
+                            <p id="paragrafoConsumoAutomovel" class="obrigatorio">Consumo do Automóvel:</p>    
+                        </div>
+                        <div class="entradaNumerica">
+                            <input id="inputEntradaConsumoAutomovel" type="text" class="entradaObrigatoria entradaLivre" placeholder="km/litro" required>
+                        </div>
+                    </div>
+                    <div id="divEntradaPrecoCombustivel">
+                        <div class="descricaoEntradaNumerica">
+                            <p id="paragrafoPrecoCombustivel" class="obrigatorio">Preço do Combustível:</p>
+                        </div>
+                        <div class="entradaNumerica">    
+                            <input id="inputEntradaPrecoCombustivel" type="text" class="entradaObrigatoria entradaLivre" placeholder="R$" required>
+                        </div>
+                    </div>
+                    <div id="divEntradaValorLucro">
+                        <div class="descricaoEntradaNumerica">
+                            <p id="paragrafoValorLucro" class="obrigatorio">Valor do Lucro:</p>
+                        </div>
+                        <div class="entradaNumerica">
+                            <input id="inputEntradaValorLucro" type="text" class="entradaObrigatoria entradaLivre" placeholder="R$" required>
+                        </div>
+                    </div>
+                </div>
+                <div id="divEntradaDescricaoLucro">
+                    <p id="paragrafoDescricaoLucro">Descrição do Lucro:</p>
+                    <textarea id="textareaEntradaDescricaoLucro" class="entradaLivre"></textarea>
+                </div>
+            </div>
+            <div id="divConfirmacaoLocalidades" style="display: none;">
+            </div>
+            <div id="divExibicaoFrete">
+                <div id="divParagrafoMensagemFrete">
+                    <p id="paragrafoMensagemFrete">FRETE = </p>
+                </div>
+                <div id="divFrete">
+                </div>
+            </div>
+            <div id="divResultadoArmazenamento">
+            </div>
+            <div id="divBotoes">
+                <div id="divPrimeiraDuplaBotoes" class="duplaBotoes">
+                    <div id="divBotaoCalcular" class="botaoInicialDuplaBotoes">
+                        <button id="buttonCalcular" type="button" class="botaoDesabilitado" disabled>Calcular</button>
+                    </div>
+                    <div id="divBotaoSalvar">
+                        <button id="buttonSalvar" type="button" class="botaoDesabilitado" disabled>Salvar</button>
+                    </div>
+                </div>
+                <div class="duplaBotoes">
+                    <div id="divBotaoVerHistorico" class="botaoInicialDuplaBotoes">
+                        <a id="linkPaginaHistorico"><button id="buttonVerHistorico" type="button" class="botaoHabilitado">Ver Histórico</button></a>
+                    </div>
+                    <div id="divBotaoSair">
+                        <a href="/"><button id="buttonSair" type="button" class="botaoHabilitado">Sair</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+    </footer>
+
+    <!-- COMANDOS JAVASCRIPT -->
+    <script src="/JavaScript/paginaPrincipal.js">
+    </script>
+</body>
+</html>

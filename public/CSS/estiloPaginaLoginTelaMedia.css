@@ -1,0 +1,21 @@
+@media(min-width: 768px){
+    #divMensagemLogin, #divEntradas, #divResultadoLogin, #divBotaoAcessar{
+        margin-bottom: 24px; /* +4px */
+    }
+    
+    #paragrafoMensagemLogin {
+        font-size: 33px; /* +4px */
+    }
+
+    #divEntradas input {
+        font-size: 20px; /* +3px */
+    }
+
+    #buttonAcessar {
+        font-size: 20px; /* +3px */
+    }
+
+    #paragrafoErroLogin, #paragrafoSucessoLogin, #paragrafoPergunta, #paragrafoAcessoPaginaCadastro {
+        font-size: 21px; /* +1px */
+    }
+}

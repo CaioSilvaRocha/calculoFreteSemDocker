@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPadrao.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPaginaCadastro.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/estiloPaginaCadastroTelaMedia.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+    </header>
+
+    <!-- CAMPO PRINCIPAL -->
+    <main>
+        <div id="divCampoPrincipal">
+            <div id="divMensagemCadastro">
+                <p id="paragrafoMensagemCadastro">CADASTRO DE CONTA</p>
+            </div>
+            <div id="divMensagemPreenchimento">
+                <p id="paragrafoMensagemPreenchimento">Preencha todos os campos!</p>
+            </div>
+            <div id="divEntradas">
+                <div id="divEntradaNome">
+                    <input id="inputEntradaNome" type="text" placeholder="Nome" required>
+                </div>
+                <div id="divEntradaCpf">
+                    <input id="inputEntradaCpf" type="text" placeholder="CPF" minlength="11" maxlength="14" required>
+                </div>
+                <div id="divEntradaEmail">
+                    <input id="inputEntradaEmail" type="email" placeholder="Email" required>
+                </div>
+                <div id="divEntradaNomeUsuario">
+                    <input id="inputEntradaNomeUsuario" type="text" placeholder="Nome de Usuário" required>
+                </div>
+                <div id="divEntradaSenha">
+                    <input id="inputEntradaSenha" type="password" placeholder="Senha" required>
+                </div>
+            </div>
+            <div id="divResultadoCadastro">
+            </div>
+            <div id="divBotaoCadastrar">
+                <button id="buttonCadastrar" type="button" class="botaoDesabilitado" disabled>Cadastrar</button>
+            </div>
+            <div id="divAcessoPaginaLogin">
+                <div id="divParagrafoPergunta">
+                    <p id="paragrafoPergunta">Possui cadastro?</p>
+                </div>
+                <div>
+                    <p id="paragrafoAcessoPaginaLogin"><a href="/">Acessar Conta</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+    </footer>
+
+    <!-- COMANDOS JAVASCRIPT -->
+    <script src="/JavaScript/paginaCadastro.js">
+    </script>
+</body>
+</html>

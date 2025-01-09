@@ -1,0 +1,21 @@
+@media(min-width: 768px){
+    #divMensagemCadastro, #divMensagemPreenchimento, #divEntradas, #divResultadoCadastro, #divBotaoCadastrar{
+        margin-bottom: 24px; /* +4px */
+    }
+    
+    #paragrafoMensagemCadastro {
+        font-size: 33px; /* +4px */
+    }
+
+    #paragrafoMensagemPreenchimento, #paragrafoErroCadastro, #paragrafoSucessoCadastro, #paragrafoPergunta, #paragrafoAcessoPaginaLogin {
+        font-size: 21px; /* +1px */
+    }
+
+    #divEntradas input {
+        font-size: 20px; /* +3px */
+    }
+
+    #buttonCadastrar {
+        font-size: 20px; /* +3px */
+    }
+}
