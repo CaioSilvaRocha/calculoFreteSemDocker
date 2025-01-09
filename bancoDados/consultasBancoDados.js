@@ -10,11 +10,11 @@ const criarBancoDados = () => {
     conexaoDepoisDefinicaoBancoDados.connect(erroConexao => {
         if(erroConexao) throw erroConexao;
 
-        conexaoDepoisDefinicaoBancoDados.query(`DROP DATABASE IF EXISTS ${process.env.database};`, (erroRemocao, retornoRemocao) => {
+        conexaoDepoisDefinicaoBancoDados.query(`DROP DATABASE IF EXISTS baw3wphaqmikgz4l2xpc;`, (erroRemocao, retornoRemocao) => {
             if(erroRemocao) throw erroRemocao;
         });
 
-        conexaoDepoisDefinicaoBancoDados.query(`CREATE DATABASE ${process.env.database};`, (erroConsulta, retornoConsulta) => {
+        conexaoDepoisDefinicaoBancoDados.query(`CREATE DATABASE baw3wphaqmikgz4l2xpc;`, (erroConsulta, retornoConsulta) => {
             if(erroConsulta) throw erroConsulta;
 
             criarTabelaContasUsuarios();
