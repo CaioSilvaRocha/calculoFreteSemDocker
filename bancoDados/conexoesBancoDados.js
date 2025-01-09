@@ -23,7 +23,8 @@ const criarConexaoDepoisDefinicaoBancoDados = () =>{
         host: "baw3wphaqmikgz4l2xpc-mysql.services.clever-cloud.com",
         user: "umfihs9ywx7ez2vn",
         password: "OklB4Navnp7GRfqzyKpU",
-        database: "baw3wphaqmikgz4l2xpc" 
+        database: "baw3wphaqmikgz4l2xpc",
+        port: 3306
     });
 
     return conexaoDepoisDefinicaoBancoDados;
