@@ -4,16 +4,17 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const criarBancoDados = () => {
-    const conexaoAntesDefinicaoBancoDados = conexoesBancoDados.criarConexaoAntesDefinicaoBancoDados();
+    //const conexaoAntesDefinicaoBancoDados = conexoesBancoDados.criarConexaoAntesDefinicaoBancoDados();
+    const conexaoDepoisDefinicaoBancoDados = conexoesBancoDados.criarConexaoDepoisDefinicaoBancoDados();
     
-    conexaoAntesDefinicaoBancoDados.connect(erroConexao => {
+    conexaoDepoisDefinicaoBancoDados.connect(erroConexao => {
         if(erroConexao) throw erroConexao;
 
-        conexaoAntesDefinicaoBancoDados.query(`DROP DATABASE IF EXISTS ${process.env.database};`, (erroRemocao, retornoRemocao) => {
+        conexaoDepoisDefinicaoBancoDados.query(`DROP DATABASE IF EXISTS ${process.env.database};`, (erroRemocao, retornoRemocao) => {
             if(erroRemocao) throw erroRemocao;
         });
 
-        conexaoAntesDefinicaoBancoDados.query(`CREATE DATABASE ${process.env.database};`, (erroConsulta, retornoConsulta) => {
+        conexaoDepoisDefinicaoBancoDados.query(`CREATE DATABASE ${process.env.database};`, (erroConsulta, retornoConsulta) => {
             if(erroConsulta) throw erroConsulta;
 
             criarTabelaContasUsuarios();
