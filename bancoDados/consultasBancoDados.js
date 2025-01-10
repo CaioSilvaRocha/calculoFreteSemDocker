@@ -1,4 +1,4 @@
-const conexoesBancoDados = require("./conexoesBancoDados");
+/*const conexoesBancoDados = require("./conexoesBancoDados");
 const dotenv = require("dotenv");
 
 dotenv.config();
@@ -77,4 +77,4 @@ module.exports = {
     criarBancoDados,
     criarTabelaContasUsuarios,
     criarTabelaHistoricosCalculosFretes
-};
+};*/
