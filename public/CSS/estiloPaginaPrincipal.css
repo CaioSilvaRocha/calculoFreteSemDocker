@@ -74,8 +74,16 @@
 
 #divEntradas input, textarea {
     border-width: 1px;
-    padding: 0px 5px;
+    /*padding: 0px 5px;*/
     font-size: 17px;
+}
+
+#divEntradas input {
+    padding: 0px 5px;
+}
+
+#divEntradas textarea {
+    padding: 5px;
 }
 
 #inputEntradaLocalOrigem, #inputEntradaLocalDestino, #inputEntradaConsumoAutomovel, #inputEntradaPrecoCombustivel, #inputEntradaValorLucro {
